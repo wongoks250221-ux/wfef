@@ -12,7 +12,7 @@ st.title("📍 안산시 소화전 위치 현황 Map")
 # ==========================================
 # 1. 브라우저 실시간 GPS 좌표 가져오기 (Streamlit 호환 HTML/JS 사용)
 # ==========================================
-@st.cache_data
+
 def get_location_component():
     # 브라우저의 Geolocation API를 사용하여 좌표를 streamlit 세션 상태로 전달하는 컴포넌트
     js_code = """
