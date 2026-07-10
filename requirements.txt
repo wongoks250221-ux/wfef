@@ -2,3 +2,5 @@ streamlit
 folium
 streamlit-folium
 pandas
+streamlit-js-eval
+streamlit-folium
